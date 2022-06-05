@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/chaix/AndroidStudioProjects/HabitpadAdmin/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.1475" />
+        <entry key="..\:/Users/chaix/AndroidStudioProjects/HabitpadAdmin/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.1475" />
+        <entry key="..\:/Users/chaix/AndroidStudioProjects/HabitpadAdmin/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.1475" />
+        <entry key="..\:/Users/chaix/AndroidStudioProjects/HabitpadAdmin/app/src/main/res/drawable/ic_baseline_exit_to_app_24.xml" value="0.1475" />
+        <entry key="..\:/Users/chaix/AndroidStudioProjects/HabitpadAdmin/app/src/main/res/drawable/ic_baseline_image_24.xml" value="0.1475" />
+        <entry key="..\:/Users/chaix/AndroidStudioProjects/HabitpadAdmin/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.1475" />
+        <entry key="..\:/Users/chaix/AndroidStudioProjects/HabitpadAdmin/app/src/main/res/drawable/ic_baseline_menu_24_white.xml" value="0.1475" />
+        <entry key="..\:/Users/chaix/AndroidStudioProjects/HabitpadAdmin/app/src/main/res/layout/activity_add_challenge.xml" value="0.25" />
+        <entry key="..\:/Users/chaix/AndroidStudioProjects/HabitpadAdmin/app/src/main/res/layout/activity_add_gift.xml" value="0.25" />
+        <entry key="..\:/Users/chaix/AndroidStudioProjects/HabitpadAdmin/app/src/main/res/layout/activity_add_tips.xml" value="0.25" />
+        <entry key="..\:/Users/chaix/AndroidStudioProjects/HabitpadAdmin/app/src/main/res/layout/activity_add_voucher.xml" value="0.25" />
+        <entry key="..\:/Users/chaix/AndroidStudioProjects/HabitpadAdmin/app/src/main/res/layout/activity_admin_login.xml" value="0.25" />
+        <entry key="..\:/Users/chaix/AndroidStudioProjects/HabitpadAdmin/app/src/main/res/layout/activity_admin_tips.xml" value="0.25" />
+        <entry key="..\:/Users/chaix/AndroidStudioProjects/HabitpadAdmin/app/src/main/res/layout/activity_challenges.xml" value="0.25" />
+        <entry key="..\:/Users/chaix/AndroidStudioProjects/HabitpadAdmin/app/src/main/res/layout/activity_edit_challenge.xml" value="0.25" />
+        <entry key="..\:/Users/chaix/AndroidStudioProjects/HabitpadAdmin/app/src/main/res/layout/activity_edit_gift.xml" value="0.25" />
+        <entry key="..\:/Users/chaix/AndroidStudioProjects/HabitpadAdmin/app/src/main/res/layout/activity_edit_tip.xml" value="0.25" />
+        <entry key="..\:/Users/chaix/AndroidStudioProjects/HabitpadAdmin/app/src/main/res/layout/activity_edit_voucher.xml" value="0.25" />
+        <entry key="..\:/Users/chaix/AndroidStudioProjects/HabitpadAdmin/app/src/main/res/layout/activity_feedback.xml" value="0.25" />
+        <entry key="..\:/Users/chaix/AndroidStudioProjects/HabitpadAdmin/app/src/main/res/layout/activity_gift.xml" value="0.25" />
+        <entry key="..\:/Users/chaix/AndroidStudioProjects/HabitpadAdmin/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/chaix/AndroidStudioProjects/HabitpadAdmin/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/Users/chaix/AndroidStudioProjects/HabitpadAdmin/app/src/main/res/layout/activity_voucher.xml" value="0.25" />
+        <entry key="..\:/Users/chaix/AndroidStudioProjects/HabitpadAdmin/app/src/main/res/layout/challenge_layout.xml" value="0.25" />
+        <entry key="..\:/Users/chaix/AndroidStudioProjects/HabitpadAdmin/app/src/main/res/layout/feedback_layout.xml" value="0.25" />
+        <entry key="..\:/Users/chaix/AndroidStudioProjects/HabitpadAdmin/app/src/main/res/layout/gift_layout.xml" value="0.25" />
+        <entry key="..\:/Users/chaix/AndroidStudioProjects/HabitpadAdmin/app/src/main/res/layout/nav_header_main.xml" value="0.25" />
+        <entry key="..\:/Users/chaix/AndroidStudioProjects/HabitpadAdmin/app/src/main/res/layout/tip_layout.xml" value="0.25" />
+        <entry key="..\:/Users/chaix/AndroidStudioProjects/HabitpadAdmin/app/src/main/res/layout/voucher_layout.xml" value="0.25" />
+        <entry key="..\:/Users/chaix/AndroidStudioProjects/HabitpadAdmin/app/src/main/res/menu/tip_menu.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

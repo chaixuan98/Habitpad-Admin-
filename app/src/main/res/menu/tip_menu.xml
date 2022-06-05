@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/admin_nav_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/admin_nav_tip"
+        android:icon="@drawable/ic_baseline_lightbulb_24"
+        android:title="Tips" />
+
+    <item
+        android:id="@+id/admin_nav_challenge"
+        android:icon="@drawable/ic_baseline_emoji_events_24"
+        android:title="Challenges" />
+
+    <item
+        android:id="@+id/admin_nav_voucher"
+        android:icon="@drawable/ic_baseline_discount_24"
+        android:title="Vouchers" />
+
+    <item
+        android:id="@+id/admin_nav_gift"
+        android:icon="@drawable/ic_baseline_card_giftcard_24"
+        android:title="Gifts" />
+
+    <item
+        android:id="@+id/admin_nav_feedback"
+        android:icon="@drawable/ic_baseline_feedback_24"
+        android:title="Feedbacks" />
+
+    <group android:checkableBehavior="single">
+        <item
+
+            android:title="Profile">
+            <menu>
+                <item
+                    android:id="@+id/admin_nav_logout"
+                    android:icon="@drawable/ic_baseline_exit_to_app_24"
+                    android:title="Logout" />
+
+            </menu>
+
+        </item>
+
+    </group>
+
+
+
+</menu>
