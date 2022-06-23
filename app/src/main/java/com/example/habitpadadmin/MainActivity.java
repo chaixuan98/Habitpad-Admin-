@@ -150,7 +150,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 editor.commit();
                 Intent logoutIntent = new Intent(getApplicationContext(), AdminLoginActivity.class);
                 startActivity(logoutIntent);
-                ((MainActivity) getApplicationContext()).finish();
+                //((MainActivity) getApplicationContext()).finish();
 
 
                 break;
