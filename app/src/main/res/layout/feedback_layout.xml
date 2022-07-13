@@ -15,7 +15,7 @@
         app:cardCornerRadius="10dp"
         app:cardBackgroundColor="#f4f4f5">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
+        <RelativeLayout
             android:id="@+id/feedback_layout"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -30,8 +30,7 @@
                 android:text="date "
                 android:textColor="@color/grey"
                 android:textSize="15sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                android:layout_alignParentEnd="true"/>
 
             <TextView
                 android:id="@+id/email_tv"
@@ -42,19 +41,18 @@
                 android:textColor="@color/black"
                 android:textSize="15sp"
                 android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/feeback_date_tv" />
+                android:layout_below="@id/feeback_date_tv" />
 
             <TextView
                 android:id="@+id/user_email_tv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_below="@id/feeback_date_tv"
                 android:layout_marginStart="10dp"
-                android:text="point"
+                android:layout_toRightOf="@+id/email_tv"
+                android:text="email"
                 android:textColor="@color/black"
-                android:textSize="15sp"
-                app:layout_constraintLeft_toRightOf="@+id/email_tv"
-                app:layout_constraintTop_toBottomOf="@+id/feeback_date_tv" />
+                android:textSize="15sp" />
 
 
             <TextView
@@ -67,20 +65,20 @@
                 android:textColor="@color/black"
                 android:textSize="15sp"
                 android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/user_email_tv" />
+                android:layout_below="@id/user_email_tv"/>
 
             <TextView
                 android:id="@+id/feedback_tv"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginRight="5dp"
                 android:text="feedback detail"
                 android:textColor="@color/black"
                 android:textSize="15sp"
-                app:layout_constraintLeft_toRightOf="@+id/feedback"
-                app:layout_constraintTop_toBottomOf="@+id/user_email_tv" />
+                android:layout_below="@id/user_email_tv"
+                android:layout_toRightOf="@id/feedback" />
 
 
 
@@ -109,7 +107,7 @@
 <!--                app:layout_constraintTop_toBottomOf="@+id/gift_desc_tv" />-->
 
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
+        </RelativeLayout>
     </androidx.cardview.widget.CardView>
 
 
